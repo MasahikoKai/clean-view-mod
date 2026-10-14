@@ -32,7 +32,7 @@ Sub-agent tool calls (`agentId` set) are ignored.
 
 ```
 /plugin marketplace add MasahikoKai/clean-view-mod
-/plugin install clean-view@clean-view-market
+/plugin install clean-view@clean-view-mod
 ```
 
 Requires a Claude Code build with the plugin hooks/UI API (`claude-code` module: `atom`, `ui.render`, `tool.register`, `command.register`, `clock`, `store`, `model.complete`).
@@ -42,7 +42,7 @@ Requires a Claude Code build with the plugin hooks/UI API (`claude-code` module:
 ```
 .claude-plugin/
   plugin.json        plugin manifest
-  marketplace.json   single-plugin marketplace (clean-view-market)
+  marketplace.json   single-plugin marketplace (clean-view-mod)
 hooks/
   hooks.json         module list
   register.tsx       entry point
