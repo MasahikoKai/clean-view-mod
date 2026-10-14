@@ -1,0 +1,5 @@
+{
+    "name": "clean-view-market",
+    "owner": { "name": "MasahikoKai" },
+    "plugins": [{ "name": "clean-view", "source": "./" }]
+}
